@@ -30,11 +30,10 @@
                   </li>
                   
                   <li class="nav-item">
-                    <a class="nav-link text-info">ABOUT</a>
+                    <a class="nav-link text-info" href="#about">ABOUT</a>
                   </li>
-                </li>
                 <li class="nav-item">
-                  <a class="nav-link text-info" href="#">CONTACT ME</a>
+                  <a class="nav-link text-info" href="#contact">CONTACT ME</a>
                 </li>
                 </ul>
                 <form class="d-flex">
@@ -46,7 +45,7 @@
     <!-- Fine Navbar-->
     <!-- Inizio foto iniziale-->
     <div class="bg-info">
-        <section id="jumbotron" class="bg-info">
+        <section class="bg-info">
             <div class="text-center py-4">
                 <h2>Pinco Pallo</h2>
                 <img class="w-25 d-inline-block" src="img/profile_pic.svg" alt="Foto profilo">
@@ -59,7 +58,7 @@
 <main>
     <!-- Inizio sezione portfolio-->
     <h3 id="Portfolio" class="text-center mt-5">PORTFOLIO</h3>
-    <div class="container">
+    <section class="container">
         <div class="row">
           <div class="col-lg-4">
             <div class="card rounded">
@@ -135,12 +134,81 @@
           </div>
 
         </div>
-    </div>
+    </section>
 
     <!-- Fine sezione portfolio-->
     <!-- Inizio sezione About-->
-    
+    <div id="about"  class="bg-info mt-5">
+        <div class="bg-info">
+            <div class="text-center py-5">
+                <h2>ABOUT</h2>
+                <div class="container">
+                    <div class="row">
+                      <div class="col text-start">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Nisi necessitatibus qui adipisci nihil asperiores numquam ab, 
+                        non rem nobis, tempora similique sapiente perspiciatis earum odio 
+                        tempore voluptatibus veritatis eum excepturi!
+                      </div>
+                      <div class="col text-start">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Nisi necessitatibus qui adipisci nihil asperiores numquam ab, 
+                        non rem nobis, tempora similique sapiente perspiciatis earum odio 
+                        tempore voluptatibus veritatis eum excepturi!
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
     <!-- Fine sezione About-->
+    <!-- Inizio sezione Contact-->
+    <section id="contact" class="bg-light">
+        <div class="p-5">
+            <h3 class="text-center">CONTACT ME</h3>
+            <form>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-xl-6">
+                            <div class="mb-3 text-start">
+                                <label for="exampleInputFirstName" class="form-label small">First name</label>
+                                <input type="first-name" class="form-control small" id="exampleInputFirstName" aria-describedby="firstNameHelp" placeholder="Enter your first name...">
+                              </div>
+                        </div>
+                        <div class="col-12 col-xl-6">
+                            <div class="mb-3 text-start">
+                                <label for="exampleInputLastName" class="form-label small">Last name</label>
+                                <input type="last-name" class="form-control small" id="exampleInputLastName" aria-describedby="lastNameHelp" placeholder="Enter your last name...">
+                                </div>
+                        </div>
+                        <div class="col-12 col-xl-6">
+                            <div class="mb-3 text-start">
+                                <label for="exampleInputEmail1" class="form-label small">E-mail</label>
+                                <input type="email" class="form-control small" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your e-mail...">
+                                </div>
+                        </div>
+                        <div class="col-12 col-xl-6">
+                            <div class="mb-3 text-start">
+                                <label for="exampleInputNumber" class="form-label small">Phone number</label>
+                                <input type="phone" class="form-control small" id="exampleInputNumber" aria-describedby="phoneHelp" placeholder="(123) 1234 5677">
+                                </div>
+                        </div>
+                        <div class="col-12 col-lg-12">
+                            <div class="mb-3 text-start">
+                                <label for="exampleInputNumber" class="form-label small">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                <button type="button" class="justify-content-center btn btn-info me-3 rounded-3 text-dark fw-bold">Send</button>
+            </div>
+            </form>
+        </div>
+    </section>
+    <!-- Fine sezione Contact-->
+    
 </main>
 <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
